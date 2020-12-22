@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 "C:\Users\king_pc1\Desktop\we-do-coding\STM8_dome\Libraries\STM8S_StdPeriph_Driver\src\stm8s_spi.c"
+=======
+"C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Libraries\STM8S_StdPeriph_Driver\src\stm8s_spi.c"
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
 -std=c99
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
+<<<<<<< HEAD
 C:\Users\king_pc1\Desktop\we-do-coding\STM8_dome\Project\Debug\Obj\stm8s_spi.pbi.dep
 -o
 stm8s_spi.pbi
@@ -15,16 +20,37 @@ C:\Users\king_pc1\Desktop\we-do-coding\STM8_dome\Project\..\App
 C:\Users\king_pc1\Desktop\we-do-coding\STM8_dome\Project\..\Bsp
 -I
 C:\Users\king_pc1\Desktop\we-do-coding\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc
+=======
+C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\Debug\Obj\stm8s_spi.pbi.dep
+-o
+stm8s_spi.pbi
+-I
+C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Libraries\STM8S_StdPeriph_Driver\src
+-I
+C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\..\App
+-I
+C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\..\Bsp
+-I
+C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc\c
 -I
+<<<<<<< HEAD
 C:\Users\king_pc1\Desktop\we-do-coding\STM8_dome\App
 -I
 C:\Users\king_pc1\Desktop\we-do-coding\STM8_dome\Bsp
 -I
 C:\Users\king_pc1\Desktop\we-do-coding\STM8_dome\Libraries\STM8S_StdPeriph_Driver\inc
+=======
+C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\App
+-I
+C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Bsp
+-I
+C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Libraries\STM8S_StdPeriph_Driver\inc
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
@@ -221,7 +247,11 @@ C:\Users\king_pc1\Desktop\we-do-coding\STM8_dome\Libraries\STM8S_StdPeriph_Drive
 -D_RTSL_COMPARE_T=unsigned char
 -D__CODE_MODEL__=__SMALL_CODE_MODEL__
 -D__CORE__=__STM8__
+<<<<<<< HEAD
 -D__DATA_MODEL__=__SMALL_DATA_MODEL__
+=======
+-D__DATA_MODEL__=__MEDIUM_DATA_MODEL__
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
 -D__ICCSTM8__=1
 -D__LARGE_CODE_MODEL__=3
 -D__LARGE_DATA_MODEL__=3
@@ -235,7 +265,10 @@ C:\Users\king_pc1\Desktop\we-do-coding\STM8_dome\Libraries\STM8S_StdPeriph_Drive
 -D__HAS_LOCATED_DECLARATION__=1
 -D__HAS_LOCATED_WITH_INIT__=1
 -D__IAR_COMPILERBASE__=595716
+<<<<<<< HEAD
 -D__RO_PLACEMENT_MUST_BE_SAME__=1
+=======
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
 -D__STDC__=1
 -D__STDC_VERSION__=199901L
 -D__STDC_HOSTED__=1
@@ -262,9 +295,15 @@ C:\Users\king_pc1\Desktop\we-do-coding\STM8_dome\Libraries\STM8S_StdPeriph_Drive
 -D__EDG_SYSV=0
 -D__EDG_ANSIC=1
 -D__EDG_CPP11_IL_EXTENSIONS_SUPPORTED=1
+<<<<<<< HEAD
 -DSTM8S103=1
 -D_DLIB_CONFIG_FILE_HEADER_NAME="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\LIB\dlstm8ssf.h"
 -D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\LIB\\dlstm8ssf.h"
+=======
+-DSTM8S003=1
+-D_DLIB_CONFIG_FILE_HEADER_NAME="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\LIB\dlstm8smf.h"
+-D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\LIB\\dlstm8smf.h"
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
 -D__VERSION__="IAR C/C++ Compiler V3.11.1.207 for STM8"
 -D__CODE_MEMORY_LIST1__()=__CODE_MEM_HELPER1__(__code, 0 )
 -D__CODE_MEMORY_LIST2__(_P1)=__CODE_MEM_HELPER2__(__code, 0 ,  _P1 )

@@ -1,6 +1,7 @@
 #ifndef __main_h
 #define __main_h
 
+<<<<<<< HEAD
 #include "stm8s.h"
 #include "user_function.h"
 #include "delay.h"
@@ -41,6 +42,8 @@ extern unsigned char send_buf;
 //
 //sbit     LED_GREEN  =    P1^5;     
 //
+=======
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
 
 
 #endif

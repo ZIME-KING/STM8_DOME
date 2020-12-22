@@ -29,10 +29,14 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm8s_it.h"
+<<<<<<< HEAD
 #include "main.h"    
 #include "uart.h"    
     
  extern int ii;
+=======
+#include "user_function.h"
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
     
 /** @addtogroup Template_Project
   * @{
@@ -134,7 +138,11 @@ INTERRUPT_HANDLER(EXTI_PORTB_IRQHandler, 4)
      it is recommended to set a breakpoint on the following instruction.
   */
 }
+<<<<<<< HEAD
   uint16_t temp;
+=======
+
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
 /**
   * @brief External Interrupt PORTC Interrupt routine.
   * @param  None
@@ -142,14 +150,21 @@ INTERRUPT_HANDLER(EXTI_PORTB_IRQHandler, 4)
   */
 INTERRUPT_HANDLER(EXTI_PORTC_IRQHandler, 5)
 {
+<<<<<<< HEAD
   ExitHalt(1);   //退出停机模式到电源检测模式
   
+=======
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   //  if ((GPIO_ReadInputData(JOYSTICK_PORT) & JOYSTICK_LEFT_PIN) == 0x00)
   //{
    // GPIO_WriteReverse(LEDS_PORT, LED1_PIN);
   //}
   
+<<<<<<< HEAD
   //进入外部中断直接唤醒cpu只有一个中断管脚就不做判断了
+=======
+  //进入外部中断直接唤醒cpu
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* In order to detect unexpected events during development,
      it is recommended to set a breakpoint on the following instruction.
@@ -343,8 +358,11 @@ INTERRUPT_HANDLER(TIM1_CAP_COM_IRQHandler, 12)
   */
  INTERRUPT_HANDLER(UART1_TX_IRQHandler, 17)
  {
+<<<<<<< HEAD
         UART1_SendData8(send_buf);
        UART1_ITConfig(UART1_IT_TXE,DISABLE);
+=======
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
     /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
@@ -357,6 +375,7 @@ INTERRUPT_HANDLER(TIM1_CAP_COM_IRQHandler, 12)
   */
  INTERRUPT_HANDLER(UART1_RX_IRQHandler, 18)
  {
+<<<<<<< HEAD
    
      if(UART1_GetITStatus(UART1_IT_RXNE) != RESET)        //检查指定的UART1中断是否发生。 
     {
@@ -369,6 +388,8 @@ INTERRUPT_HANDLER(TIM1_CAP_COM_IRQHandler, 12)
       
       UART1_ClearITPendingBit(UART1_IT_RXNE);               //清除UART1挂起标志
     }
+=======
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
     /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
@@ -513,6 +534,7 @@ INTERRUPT_HANDLER(TIM6_UPD_OVF_TRG_IRQHandler, 23)
   */
  INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
  {
+<<<<<<< HEAD
    
    TimingDelay_Decrement();   //延时函数用的
    sys_time++;                //系统时间++
@@ -522,6 +544,9 @@ INTERRUPT_HANDLER(TIM6_UPD_OVF_TRG_IRQHandler, 23)
    
    TIM4_ClearITPendingBit(TIM4_IT_UPDATE); //清除中断标记  
 /* In order to detect unexpected events during development,
+=======
+  /* In order to detect unexpected events during development,
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
      it is recommended to set a breakpoint on the following instruction.
   */
  }

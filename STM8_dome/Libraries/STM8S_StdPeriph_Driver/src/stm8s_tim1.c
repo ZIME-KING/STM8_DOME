@@ -114,7 +114,11 @@ void TIM1_TimeBaseInit(uint16_t TIM1_Prescaler,
                        uint8_t TIM1_RepetitionCounter)
 {
   /* Check parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_COUNTER_MODE_OK(TIM1_CounterMode));
+=======
+  assert_param(IS_TIM1_COUNTER_MODE_OK(TIM1_CounterMode));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set the Autoreload value */
   TIM1->ARRH = (uint8_t)(TIM1_Period >> 8);
@@ -161,6 +165,7 @@ void TIM1_OC1Init(TIM1_OCMode_TypeDef TIM1_OCMode,
                   TIM1_OCNIdleState_TypeDef TIM1_OCNIdleState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   ////assert_param(IS_TIM1_OC_MODE_OK(TIM1_OCMode));
   //assert_param(IS_TIM1_OUTPUT_STATE_OK(TIM1_OutputState));
   //assert_param(IS_TIM1_OUTPUTN_STATE_OK(TIM1_OutputNState));
@@ -168,6 +173,15 @@ void TIM1_OC1Init(TIM1_OCMode_TypeDef TIM1_OCMode,
   //assert_param(IS_TIM1_OCN_POLARITY_OK(TIM1_OCNPolarity));
   //assert_param(IS_TIM1_OCIDLE_STATE_OK(TIM1_OCIdleState));
   //assert_param(IS_TIM1_OCNIDLE_STATE_OK(TIM1_OCNIdleState));
+=======
+  assert_param(IS_TIM1_OC_MODE_OK(TIM1_OCMode));
+  assert_param(IS_TIM1_OUTPUT_STATE_OK(TIM1_OutputState));
+  assert_param(IS_TIM1_OUTPUTN_STATE_OK(TIM1_OutputNState));
+  assert_param(IS_TIM1_OC_POLARITY_OK(TIM1_OCPolarity));
+  assert_param(IS_TIM1_OCN_POLARITY_OK(TIM1_OCNPolarity));
+  assert_param(IS_TIM1_OCIDLE_STATE_OK(TIM1_OCIdleState));
+  assert_param(IS_TIM1_OCNIDLE_STATE_OK(TIM1_OCNIdleState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Disable the Channel 1: Reset the CCE Bit, Set the Output State , 
   the Output N State, the Output Polarity & the Output N Polarity*/
@@ -224,6 +238,7 @@ void TIM1_OC2Init(TIM1_OCMode_TypeDef TIM1_OCMode,
                   TIM1_OCNIdleState_TypeDef TIM1_OCNIdleState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_OC_MODE_OK(TIM1_OCMode));
   //assert_param(IS_TIM1_OUTPUT_STATE_OK(TIM1_OutputState));
   //assert_param(IS_TIM1_OUTPUTN_STATE_OK(TIM1_OutputNState));
@@ -231,6 +246,15 @@ void TIM1_OC2Init(TIM1_OCMode_TypeDef TIM1_OCMode,
   //assert_param(IS_TIM1_OCN_POLARITY_OK(TIM1_OCNPolarity));
   //assert_param(IS_TIM1_OCIDLE_STATE_OK(TIM1_OCIdleState));
   //assert_param(IS_TIM1_OCNIDLE_STATE_OK(TIM1_OCNIdleState));
+=======
+  assert_param(IS_TIM1_OC_MODE_OK(TIM1_OCMode));
+  assert_param(IS_TIM1_OUTPUT_STATE_OK(TIM1_OutputState));
+  assert_param(IS_TIM1_OUTPUTN_STATE_OK(TIM1_OutputNState));
+  assert_param(IS_TIM1_OC_POLARITY_OK(TIM1_OCPolarity));
+  assert_param(IS_TIM1_OCN_POLARITY_OK(TIM1_OCNPolarity));
+  assert_param(IS_TIM1_OCIDLE_STATE_OK(TIM1_OCIdleState));
+  assert_param(IS_TIM1_OCNIDLE_STATE_OK(TIM1_OCNIdleState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Disable the Channel 1: Reset the CCE Bit, Set the Output State , 
   the Output N State, the Output Polarity & the Output N Polarity*/
@@ -288,6 +312,7 @@ void TIM1_OC3Init(TIM1_OCMode_TypeDef TIM1_OCMode,
                   TIM1_OCNIdleState_TypeDef TIM1_OCNIdleState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_OC_MODE_OK(TIM1_OCMode));
   //assert_param(IS_TIM1_OUTPUT_STATE_OK(TIM1_OutputState));
   //assert_param(IS_TIM1_OUTPUTN_STATE_OK(TIM1_OutputNState));
@@ -295,6 +320,15 @@ void TIM1_OC3Init(TIM1_OCMode_TypeDef TIM1_OCMode,
   //assert_param(IS_TIM1_OCN_POLARITY_OK(TIM1_OCNPolarity));
   //assert_param(IS_TIM1_OCIDLE_STATE_OK(TIM1_OCIdleState));
   //assert_param(IS_TIM1_OCNIDLE_STATE_OK(TIM1_OCNIdleState));
+=======
+  assert_param(IS_TIM1_OC_MODE_OK(TIM1_OCMode));
+  assert_param(IS_TIM1_OUTPUT_STATE_OK(TIM1_OutputState));
+  assert_param(IS_TIM1_OUTPUTN_STATE_OK(TIM1_OutputNState));
+  assert_param(IS_TIM1_OC_POLARITY_OK(TIM1_OCPolarity));
+  assert_param(IS_TIM1_OCN_POLARITY_OK(TIM1_OCNPolarity));
+  assert_param(IS_TIM1_OCIDLE_STATE_OK(TIM1_OCIdleState));
+  assert_param(IS_TIM1_OCNIDLE_STATE_OK(TIM1_OCNIdleState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Disable the Channel 1: Reset the CCE Bit, Set the Output State , 
   the Output N State, the Output Polarity & the Output N Polarity*/
@@ -342,10 +376,17 @@ void TIM1_OC4Init(TIM1_OCMode_TypeDef TIM1_OCMode,
                   TIM1_OCIdleState_TypeDef TIM1_OCIdleState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_OC_MODE_OK(TIM1_OCMode));
   //assert_param(IS_TIM1_OUTPUT_STATE_OK(TIM1_OutputState));
   //assert_param(IS_TIM1_OC_POLARITY_OK(TIM1_OCPolarity));
   //assert_param(IS_TIM1_OCIDLE_STATE_OK(TIM1_OCIdleState));
+=======
+  assert_param(IS_TIM1_OC_MODE_OK(TIM1_OCMode));
+  assert_param(IS_TIM1_OUTPUT_STATE_OK(TIM1_OutputState));
+  assert_param(IS_TIM1_OC_POLARITY_OK(TIM1_OCPolarity));
+  assert_param(IS_TIM1_OCIDLE_STATE_OK(TIM1_OCIdleState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Disable the Channel 4: Reset the CCE Bit */
   TIM1->CCER2 &= (uint8_t)(~(TIM1_CCER2_CC4E | TIM1_CCER2_CC4P));
@@ -393,11 +434,19 @@ void TIM1_BDTRConfig(TIM1_OSSIState_TypeDef TIM1_OSSIState,
                      TIM1_AutomaticOutput_TypeDef TIM1_AutomaticOutput)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_OSSI_STATE_OK(TIM1_OSSIState));
   //assert_param(IS_TIM1_LOCK_LEVEL_OK(TIM1_LockLevel));
   //assert_param(IS_TIM1_BREAK_STATE_OK(TIM1_Break));
   //assert_param(IS_TIM1_BREAK_POLARITY_OK(TIM1_BreakPolarity));
   //assert_param(IS_TIM1_AUTOMATIC_OUTPUT_STATE_OK(TIM1_AutomaticOutput));
+=======
+  assert_param(IS_TIM1_OSSI_STATE_OK(TIM1_OSSIState));
+  assert_param(IS_TIM1_LOCK_LEVEL_OK(TIM1_LockLevel));
+  assert_param(IS_TIM1_BREAK_STATE_OK(TIM1_Break));
+  assert_param(IS_TIM1_BREAK_POLARITY_OK(TIM1_BreakPolarity));
+  assert_param(IS_TIM1_AUTOMATIC_OUTPUT_STATE_OK(TIM1_AutomaticOutput));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   TIM1->DTR = (uint8_t)(TIM1_DeadTime);
   /* Set the Lock level, the Break enable Bit and the Polarity, the OSSI State,
@@ -427,11 +476,19 @@ void TIM1_ICInit(TIM1_Channel_TypeDef TIM1_Channel,
                  uint8_t TIM1_ICFilter)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_CHANNEL_OK(TIM1_Channel));
   //assert_param(IS_TIM1_IC_POLARITY_OK(TIM1_ICPolarity));
   //assert_param(IS_TIM1_IC_SELECTION_OK(TIM1_ICSelection));
   //assert_param(IS_TIM1_IC_PRESCALER_OK(TIM1_ICPrescaler));
   //assert_param(IS_TIM1_IC_FILTER_OK(TIM1_ICFilter));
+=======
+  assert_param(IS_TIM1_CHANNEL_OK(TIM1_Channel));
+  assert_param(IS_TIM1_IC_POLARITY_OK(TIM1_ICPolarity));
+  assert_param(IS_TIM1_IC_SELECTION_OK(TIM1_ICSelection));
+  assert_param(IS_TIM1_IC_PRESCALER_OK(TIM1_ICPrescaler));
+  assert_param(IS_TIM1_IC_FILTER_OK(TIM1_ICFilter));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   if (TIM1_Channel == TIM1_CHANNEL_1)
   {
@@ -495,10 +552,17 @@ void TIM1_PWMIConfig(TIM1_Channel_TypeDef TIM1_Channel,
   uint8_t icselection = TIM1_ICSELECTION_DIRECTTI;
   
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_PWMI_CHANNEL_OK(TIM1_Channel));
   //assert_param(IS_TIM1_IC_POLARITY_OK(TIM1_ICPolarity));
   //assert_param(IS_TIM1_IC_SELECTION_OK(TIM1_ICSelection));
   //assert_param(IS_TIM1_IC_PRESCALER_OK(TIM1_ICPrescaler));
+=======
+  assert_param(IS_TIM1_PWMI_CHANNEL_OK(TIM1_Channel));
+  assert_param(IS_TIM1_IC_POLARITY_OK(TIM1_ICPolarity));
+  assert_param(IS_TIM1_IC_SELECTION_OK(TIM1_ICSelection));
+  assert_param(IS_TIM1_IC_PRESCALER_OK(TIM1_ICPrescaler));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Select the Opposite Input Polarity */
   if (TIM1_ICPolarity != TIM1_ICPOLARITY_FALLING)
@@ -561,7 +625,11 @@ void TIM1_PWMIConfig(TIM1_Channel_TypeDef TIM1_Channel,
 void TIM1_Cmd(FunctionalState NewState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+=======
+  assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* set or Reset the CEN Bit */
   if (NewState != DISABLE)
@@ -583,7 +651,11 @@ void TIM1_Cmd(FunctionalState NewState)
 void TIM1_CtrlPWMOutputs(FunctionalState NewState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+=======
+  assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the MOE Bit */
   
@@ -617,8 +689,13 @@ void TIM1_CtrlPWMOutputs(FunctionalState NewState)
 void TIM1_ITConfig(TIM1_IT_TypeDef  TIM1_IT, FunctionalState NewState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_IT_OK(TIM1_IT));
   //assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+=======
+  assert_param(IS_TIM1_IT_OK(TIM1_IT));
+  assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   if (NewState != DISABLE)
   {
@@ -664,8 +741,13 @@ void TIM1_ETRClockMode1Config(TIM1_ExtTRGPSC_TypeDef TIM1_ExtTRGPrescaler,
                               uint8_t ExtTRGFilter)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_EXT_PRESCALER_OK(TIM1_ExtTRGPrescaler));
   //assert_param(IS_TIM1_EXT_POLARITY_OK(TIM1_ExtTRGPolarity));
+=======
+  assert_param(IS_TIM1_EXT_PRESCALER_OK(TIM1_ExtTRGPrescaler));
+  assert_param(IS_TIM1_EXT_POLARITY_OK(TIM1_ExtTRGPolarity));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Configure the ETR Clock source */
   TIM1_ETRConfig(TIM1_ExtTRGPrescaler, TIM1_ExtTRGPolarity, ExtTRGFilter);
@@ -696,8 +778,13 @@ void TIM1_ETRClockMode2Config(TIM1_ExtTRGPSC_TypeDef TIM1_ExtTRGPrescaler,
                               uint8_t ExtTRGFilter)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_EXT_PRESCALER_OK(TIM1_ExtTRGPrescaler));
   //assert_param(IS_TIM1_EXT_POLARITY_OK(TIM1_ExtTRGPolarity));
+=======
+  assert_param(IS_TIM1_EXT_PRESCALER_OK(TIM1_ExtTRGPrescaler));
+  assert_param(IS_TIM1_EXT_POLARITY_OK(TIM1_ExtTRGPolarity));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Configure the ETR Clock source */
   TIM1_ETRConfig(TIM1_ExtTRGPrescaler, TIM1_ExtTRGPolarity, ExtTRGFilter);
@@ -727,7 +814,11 @@ void TIM1_ETRConfig(TIM1_ExtTRGPSC_TypeDef TIM1_ExtTRGPrescaler,
                     uint8_t ExtTRGFilter)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_EXT_TRG_FILTER_OK(ExtTRGFilter));
+=======
+  assert_param(IS_TIM1_EXT_TRG_FILTER_OK(ExtTRGFilter));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   /* Set the Prescaler, the Filter value and the Polarity */
   TIM1->ETR |= (uint8_t)((uint8_t)(TIM1_ExtTRGPrescaler | (uint8_t)TIM1_ExtTRGPolarity )|
                          (uint8_t)ExtTRGFilter );
@@ -753,9 +844,15 @@ void TIM1_TIxExternalClockConfig(TIM1_TIxExternalCLK1Source_TypeDef TIM1_TIxExte
                                  uint8_t ICFilter)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_TIXCLK_SOURCE_OK(TIM1_TIxExternalCLKSource));
   //assert_param(IS_TIM1_IC_POLARITY_OK(TIM1_ICPolarity));
   //assert_param(IS_TIM1_IC_FILTER_OK(ICFilter));
+=======
+  assert_param(IS_TIM1_TIXCLK_SOURCE_OK(TIM1_TIxExternalCLKSource));
+  assert_param(IS_TIM1_IC_POLARITY_OK(TIM1_ICPolarity));
+  assert_param(IS_TIM1_IC_FILTER_OK(ICFilter));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Configure the TIM1 Input Clock Source */
   if (TIM1_TIxExternalCLKSource == TIM1_TIXEXTERNALCLK1SOURCE_TI2)
@@ -787,7 +884,11 @@ void TIM1_TIxExternalClockConfig(TIM1_TIxExternalCLK1Source_TypeDef TIM1_TIxExte
 void TIM1_SelectInputTrigger(TIM1_TS_TypeDef TIM1_InputTriggerSource)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_TRIGGER_SELECTION_OK(TIM1_InputTriggerSource));
+=======
+  assert_param(IS_TIM1_TRIGGER_SELECTION_OK(TIM1_InputTriggerSource));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Select the Tgigger Source */
   TIM1->SMCR = (uint8_t)((uint8_t)(TIM1->SMCR & (uint8_t)(~TIM1_SMCR_TS)) | (uint8_t)TIM1_InputTriggerSource);
@@ -803,7 +904,11 @@ void TIM1_SelectInputTrigger(TIM1_TS_TypeDef TIM1_InputTriggerSource)
 void TIM1_UpdateDisableConfig(FunctionalState NewState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+=======
+  assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the UDIS Bit */
   if (NewState != DISABLE)
@@ -827,7 +932,11 @@ void TIM1_UpdateDisableConfig(FunctionalState NewState)
 void TIM1_UpdateRequestConfig(TIM1_UpdateSource_TypeDef TIM1_UpdateSource)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_UPDATE_SOURCE_OK(TIM1_UpdateSource));
+=======
+  assert_param(IS_TIM1_UPDATE_SOURCE_OK(TIM1_UpdateSource));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the URS Bit */
   if (TIM1_UpdateSource != TIM1_UPDATESOURCE_GLOBAL)
@@ -849,7 +958,11 @@ void TIM1_UpdateRequestConfig(TIM1_UpdateSource_TypeDef TIM1_UpdateSource)
 void TIM1_SelectHallSensor(FunctionalState NewState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+=======
+  assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the TI1S Bit */
   if (NewState != DISABLE)
@@ -873,7 +986,11 @@ void TIM1_SelectHallSensor(FunctionalState NewState)
 void TIM1_SelectOnePulseMode(TIM1_OPMode_TypeDef TIM1_OPMode)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_OPM_MODE_OK(TIM1_OPMode));
+=======
+  assert_param(IS_TIM1_OPM_MODE_OK(TIM1_OPMode));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the OPM Bit */
   if (TIM1_OPMode != TIM1_OPMODE_REPETITIVE)
@@ -903,7 +1020,11 @@ void TIM1_SelectOnePulseMode(TIM1_OPMode_TypeDef TIM1_OPMode)
 void TIM1_SelectOutputTrigger(TIM1_TRGOSource_TypeDef TIM1_TRGOSource)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_TRGO_SOURCE_OK(TIM1_TRGOSource));
+=======
+  assert_param(IS_TIM1_TRGO_SOURCE_OK(TIM1_TRGOSource));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Reset the MMS Bits & Select the TRGO source */
   TIM1->CR2 = (uint8_t)((uint8_t)(TIM1->CR2 & (uint8_t)(~TIM1_CR2_MMS)) | 
@@ -923,7 +1044,11 @@ void TIM1_SelectOutputTrigger(TIM1_TRGOSource_TypeDef TIM1_TRGOSource)
 void TIM1_SelectSlaveMode(TIM1_SlaveMode_TypeDef TIM1_SlaveMode)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_SLAVE_MODE_OK(TIM1_SlaveMode));
+=======
+  assert_param(IS_TIM1_SLAVE_MODE_OK(TIM1_SlaveMode));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Reset the SMS Bits */ /* Select the Slave Mode */
   TIM1->SMCR = (uint8_t)((uint8_t)(TIM1->SMCR & (uint8_t)(~TIM1_SMCR_SMS)) |
@@ -939,7 +1064,11 @@ void TIM1_SelectSlaveMode(TIM1_SlaveMode_TypeDef TIM1_SlaveMode)
 void TIM1_SelectMasterSlaveMode(FunctionalState NewState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+=======
+  assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the MSM Bit */
   if (NewState != DISABLE)
@@ -977,9 +1106,15 @@ void TIM1_EncoderInterfaceConfig(TIM1_EncoderMode_TypeDef TIM1_EncoderMode,
                                  TIM1_ICPolarity_TypeDef TIM1_IC2Polarity)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_ENCODER_MODE_OK(TIM1_EncoderMode));
   //assert_param(IS_TIM1_IC_POLARITY_OK(TIM1_IC1Polarity));
   //assert_param(IS_TIM1_IC_POLARITY_OK(TIM1_IC2Polarity));
+=======
+  assert_param(IS_TIM1_ENCODER_MODE_OK(TIM1_EncoderMode));
+  assert_param(IS_TIM1_IC_POLARITY_OK(TIM1_IC1Polarity));
+  assert_param(IS_TIM1_IC_POLARITY_OK(TIM1_IC2Polarity));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set the TI1 and the TI2 Polarities */
   if (TIM1_IC1Polarity != TIM1_ICPOLARITY_RISING)
@@ -1024,7 +1159,11 @@ void TIM1_PrescalerConfig(uint16_t Prescaler,
                           TIM1_PSCReloadMode_TypeDef TIM1_PSCReloadMode)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_PRESCALER_RELOAD_OK(TIM1_PSCReloadMode));
+=======
+  assert_param(IS_TIM1_PRESCALER_RELOAD_OK(TIM1_PSCReloadMode));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set the Prescaler value */
   TIM1->PSCRH = (uint8_t)(Prescaler >> 8);
@@ -1048,7 +1187,11 @@ void TIM1_PrescalerConfig(uint16_t Prescaler,
 void TIM1_CounterModeConfig(TIM1_CounterMode_TypeDef TIM1_CounterMode)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_COUNTER_MODE_OK(TIM1_CounterMode));
+=======
+  assert_param(IS_TIM1_COUNTER_MODE_OK(TIM1_CounterMode));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   
   /* Reset the CMS and DIR Bits & Set the Counter Mode */
@@ -1067,7 +1210,11 @@ void TIM1_CounterModeConfig(TIM1_CounterMode_TypeDef TIM1_CounterMode)
 void TIM1_ForcedOC1Config(TIM1_ForcedAction_TypeDef TIM1_ForcedAction)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_FORCED_ACTION_OK(TIM1_ForcedAction));
+=======
+  assert_param(IS_TIM1_FORCED_ACTION_OK(TIM1_ForcedAction));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Reset the OCM Bits & Configure the Forced output Mode */
   TIM1->CCMR1 =  (uint8_t)((uint8_t)(TIM1->CCMR1 & (uint8_t)(~TIM1_CCMR_OCM))|
@@ -1085,7 +1232,11 @@ void TIM1_ForcedOC1Config(TIM1_ForcedAction_TypeDef TIM1_ForcedAction)
 void TIM1_ForcedOC2Config(TIM1_ForcedAction_TypeDef TIM1_ForcedAction)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_FORCED_ACTION_OK(TIM1_ForcedAction));
+=======
+  assert_param(IS_TIM1_FORCED_ACTION_OK(TIM1_ForcedAction));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Reset the OCM Bits & Configure the Forced output Mode */
   TIM1->CCMR2  =  (uint8_t)((uint8_t)(TIM1->CCMR2 & (uint8_t)(~TIM1_CCMR_OCM))
@@ -1104,7 +1255,11 @@ void TIM1_ForcedOC2Config(TIM1_ForcedAction_TypeDef TIM1_ForcedAction)
 void TIM1_ForcedOC3Config(TIM1_ForcedAction_TypeDef TIM1_ForcedAction)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_FORCED_ACTION_OK(TIM1_ForcedAction));
+=======
+  assert_param(IS_TIM1_FORCED_ACTION_OK(TIM1_ForcedAction));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Reset the OCM Bits */ /* Configure The Forced output Mode */
   TIM1->CCMR3  =  (uint8_t)((uint8_t)(TIM1->CCMR3 & (uint8_t)(~TIM1_CCMR_OCM))  
@@ -1123,7 +1278,11 @@ void TIM1_ForcedOC3Config(TIM1_ForcedAction_TypeDef TIM1_ForcedAction)
 void TIM1_ForcedOC4Config(TIM1_ForcedAction_TypeDef TIM1_ForcedAction)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_FORCED_ACTION_OK(TIM1_ForcedAction));
+=======
+  assert_param(IS_TIM1_FORCED_ACTION_OK(TIM1_ForcedAction));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Reset the OCM Bits & Configure the Forced output Mode */
   TIM1->CCMR4  =  (uint8_t)((uint8_t)(TIM1->CCMR4 & (uint8_t)(~TIM1_CCMR_OCM)) 
@@ -1139,7 +1298,11 @@ void TIM1_ForcedOC4Config(TIM1_ForcedAction_TypeDef TIM1_ForcedAction)
 void TIM1_ARRPreloadConfig(FunctionalState NewState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+=======
+  assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the ARPE Bit */
   if (NewState != DISABLE)
@@ -1161,7 +1324,11 @@ void TIM1_ARRPreloadConfig(FunctionalState NewState)
 void TIM1_SelectCOM(FunctionalState NewState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+=======
+  assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the COMS Bit */
   if (NewState != DISABLE)
@@ -1183,7 +1350,11 @@ void TIM1_SelectCOM(FunctionalState NewState)
 void TIM1_CCPreloadControl(FunctionalState NewState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+=======
+  assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the CCPC Bit */
   if (NewState != DISABLE)
@@ -1205,7 +1376,11 @@ void TIM1_CCPreloadControl(FunctionalState NewState)
 void TIM1_OC1PreloadConfig(FunctionalState NewState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+=======
+  assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the OC1PE Bit */
   if (NewState != DISABLE)
@@ -1227,7 +1402,11 @@ void TIM1_OC1PreloadConfig(FunctionalState NewState)
 void TIM1_OC2PreloadConfig(FunctionalState NewState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+=======
+  assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the OC2PE Bit */
   if (NewState != DISABLE)
@@ -1249,7 +1428,11 @@ void TIM1_OC2PreloadConfig(FunctionalState NewState)
 void TIM1_OC3PreloadConfig(FunctionalState NewState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+=======
+  assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the OC3PE Bit */
   if (NewState != DISABLE)
@@ -1271,7 +1454,11 @@ void TIM1_OC3PreloadConfig(FunctionalState NewState)
 void TIM1_OC4PreloadConfig(FunctionalState NewState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+=======
+  assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the OC4PE Bit */
   if (NewState != DISABLE)
@@ -1293,7 +1480,11 @@ void TIM1_OC4PreloadConfig(FunctionalState NewState)
 void TIM1_OC1FastConfig(FunctionalState NewState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+=======
+  assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the OC1FE Bit */
   if (NewState != DISABLE)
@@ -1315,7 +1506,11 @@ void TIM1_OC1FastConfig(FunctionalState NewState)
 void TIM1_OC2FastConfig(FunctionalState NewState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+=======
+  assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the OC2FE Bit */
   if (NewState != DISABLE)
@@ -1337,7 +1532,11 @@ void TIM1_OC2FastConfig(FunctionalState NewState)
 void TIM1_OC3FastConfig(FunctionalState NewState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+=======
+  assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the OC3FE Bit */
   if (NewState != DISABLE)
@@ -1359,7 +1558,11 @@ void TIM1_OC3FastConfig(FunctionalState NewState)
 void TIM1_OC4FastConfig(FunctionalState NewState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+=======
+  assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the OC4FE Bit */
   if (NewState != DISABLE)
@@ -1389,7 +1592,11 @@ void TIM1_OC4FastConfig(FunctionalState NewState)
 void TIM1_GenerateEvent(TIM1_EventSource_TypeDef TIM1_EventSource)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_EVENT_SOURCE_OK(TIM1_EventSource));
+=======
+  assert_param(IS_TIM1_EVENT_SOURCE_OK(TIM1_EventSource));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set the event sources */
   TIM1->EGR = (uint8_t)TIM1_EventSource;
@@ -1406,7 +1613,11 @@ void TIM1_GenerateEvent(TIM1_EventSource_TypeDef TIM1_EventSource)
 void TIM1_OC1PolarityConfig(TIM1_OCPolarity_TypeDef TIM1_OCPolarity)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_OC_POLARITY_OK(TIM1_OCPolarity));
+=======
+  assert_param(IS_TIM1_OC_POLARITY_OK(TIM1_OCPolarity));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the CC1P Bit */
   if (TIM1_OCPolarity != TIM1_OCPOLARITY_HIGH)
@@ -1430,7 +1641,11 @@ void TIM1_OC1PolarityConfig(TIM1_OCPolarity_TypeDef TIM1_OCPolarity)
 void TIM1_OC1NPolarityConfig(TIM1_OCNPolarity_TypeDef TIM1_OCNPolarity)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_OCN_POLARITY_OK(TIM1_OCNPolarity));
+=======
+  assert_param(IS_TIM1_OCN_POLARITY_OK(TIM1_OCNPolarity));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the CC3P Bit */
   if (TIM1_OCNPolarity != TIM1_OCNPOLARITY_HIGH)
@@ -1454,7 +1669,11 @@ void TIM1_OC1NPolarityConfig(TIM1_OCNPolarity_TypeDef TIM1_OCNPolarity)
 void TIM1_OC2PolarityConfig(TIM1_OCPolarity_TypeDef TIM1_OCPolarity)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_OC_POLARITY_OK(TIM1_OCPolarity));
+=======
+  assert_param(IS_TIM1_OC_POLARITY_OK(TIM1_OCPolarity));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the CC2P Bit */
   if (TIM1_OCPolarity != TIM1_OCPOLARITY_HIGH)
@@ -1478,7 +1697,11 @@ void TIM1_OC2PolarityConfig(TIM1_OCPolarity_TypeDef TIM1_OCPolarity)
 void TIM1_OC2NPolarityConfig(TIM1_OCNPolarity_TypeDef TIM1_OCNPolarity)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_OCN_POLARITY_OK(TIM1_OCNPolarity));
+=======
+  assert_param(IS_TIM1_OCN_POLARITY_OK(TIM1_OCNPolarity));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the CC3P Bit */
   if (TIM1_OCNPolarity != TIM1_OCNPOLARITY_HIGH)
@@ -1502,7 +1725,11 @@ void TIM1_OC2NPolarityConfig(TIM1_OCNPolarity_TypeDef TIM1_OCNPolarity)
 void TIM1_OC3PolarityConfig(TIM1_OCPolarity_TypeDef TIM1_OCPolarity)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_OC_POLARITY_OK(TIM1_OCPolarity));
+=======
+  assert_param(IS_TIM1_OC_POLARITY_OK(TIM1_OCPolarity));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the CC3P Bit */
   if (TIM1_OCPolarity != TIM1_OCPOLARITY_HIGH)
@@ -1527,7 +1754,11 @@ void TIM1_OC3PolarityConfig(TIM1_OCPolarity_TypeDef TIM1_OCPolarity)
 void TIM1_OC3NPolarityConfig(TIM1_OCNPolarity_TypeDef TIM1_OCNPolarity)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_OCN_POLARITY_OK(TIM1_OCNPolarity));
+=======
+  assert_param(IS_TIM1_OCN_POLARITY_OK(TIM1_OCNPolarity));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the CC3P Bit */
   if (TIM1_OCNPolarity != TIM1_OCNPOLARITY_HIGH)
@@ -1551,7 +1782,11 @@ void TIM1_OC3NPolarityConfig(TIM1_OCNPolarity_TypeDef TIM1_OCNPolarity)
 void TIM1_OC4PolarityConfig(TIM1_OCPolarity_TypeDef TIM1_OCPolarity)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_OC_POLARITY_OK(TIM1_OCPolarity));
+=======
+  assert_param(IS_TIM1_OC_POLARITY_OK(TIM1_OCPolarity));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the CC4P Bit */
   if (TIM1_OCPolarity != TIM1_OCPOLARITY_HIGH)
@@ -1579,8 +1814,13 @@ void TIM1_OC4PolarityConfig(TIM1_OCPolarity_TypeDef TIM1_OCPolarity)
 void TIM1_CCxCmd(TIM1_Channel_TypeDef TIM1_Channel, FunctionalState NewState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_CHANNEL_OK(TIM1_Channel));
   //assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+=======
+  assert_param(IS_TIM1_CHANNEL_OK(TIM1_Channel));
+  assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   if (TIM1_Channel == TIM1_CHANNEL_1)
   {
@@ -1647,8 +1887,13 @@ void TIM1_CCxCmd(TIM1_Channel_TypeDef TIM1_Channel, FunctionalState NewState)
 void TIM1_CCxNCmd(TIM1_Channel_TypeDef TIM1_Channel, FunctionalState NewState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_COMPLEMENTARY_CHANNEL_OK(TIM1_Channel));
   //assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+=======
+  assert_param(IS_TIM1_COMPLEMENTARY_CHANNEL_OK(TIM1_Channel));
+  assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   if (TIM1_Channel == TIM1_CHANNEL_1)
   {
@@ -1712,8 +1957,13 @@ void TIM1_CCxNCmd(TIM1_Channel_TypeDef TIM1_Channel, FunctionalState NewState)
 void TIM1_SelectOCxM(TIM1_Channel_TypeDef TIM1_Channel, TIM1_OCMode_TypeDef TIM1_OCMode)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_CHANNEL_OK(TIM1_Channel));
   //assert_param(IS_TIM1_OCM_OK(TIM1_OCMode));
+=======
+  assert_param(IS_TIM1_CHANNEL_OK(TIM1_Channel));
+  assert_param(IS_TIM1_OCM_OK(TIM1_OCMode));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   if (TIM1_Channel == TIM1_CHANNEL_1)
   {
@@ -1844,7 +2094,11 @@ void TIM1_SetCompare4(uint16_t Compare4)
 void TIM1_SetIC1Prescaler(TIM1_ICPSC_TypeDef TIM1_IC1Prescaler)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_IC_PRESCALER_OK(TIM1_IC1Prescaler));
+=======
+  assert_param(IS_TIM1_IC_PRESCALER_OK(TIM1_IC1Prescaler));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Reset the IC1PSC Bits */ /* Set the IC1PSC value */
   TIM1->CCMR1 = (uint8_t)((uint8_t)(TIM1->CCMR1 & (uint8_t)(~TIM1_CCMR_ICxPSC)) 
@@ -1865,7 +2119,11 @@ void TIM1_SetIC2Prescaler(TIM1_ICPSC_TypeDef TIM1_IC2Prescaler)
 {
   
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_IC_PRESCALER_OK(TIM1_IC2Prescaler));
+=======
+  assert_param(IS_TIM1_IC_PRESCALER_OK(TIM1_IC2Prescaler));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Reset the IC1PSC Bits */ /* Set the IC1PSC value */
   TIM1->CCMR2 = (uint8_t)((uint8_t)(TIM1->CCMR2 & (uint8_t)(~TIM1_CCMR_ICxPSC))
@@ -1886,7 +2144,11 @@ void TIM1_SetIC3Prescaler(TIM1_ICPSC_TypeDef TIM1_IC3Prescaler)
 {
   
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_IC_PRESCALER_OK(TIM1_IC3Prescaler));
+=======
+  assert_param(IS_TIM1_IC_PRESCALER_OK(TIM1_IC3Prescaler));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Reset the IC1PSC Bits & Set the IC1PSC value */
   TIM1->CCMR3 = (uint8_t)((uint8_t)(TIM1->CCMR3 & (uint8_t)(~TIM1_CCMR_ICxPSC)) | 
@@ -1907,7 +2169,11 @@ void TIM1_SetIC4Prescaler(TIM1_ICPSC_TypeDef TIM1_IC4Prescaler)
 {
   
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_IC_PRESCALER_OK(TIM1_IC4Prescaler));
+=======
+  assert_param(IS_TIM1_IC_PRESCALER_OK(TIM1_IC4Prescaler));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Reset the IC1PSC Bits &  Set the IC1PSC value */
   TIM1->CCMR4 = (uint8_t)((uint8_t)(TIM1->CCMR4 & (uint8_t)(~TIM1_CCMR_ICxPSC)) |
@@ -2050,7 +2316,11 @@ FlagStatus TIM1_GetFlagStatus(TIM1_FLAG_TypeDef TIM1_FLAG)
   uint8_t tim1_flag_l = 0, tim1_flag_h = 0;
   
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_GET_FLAG_OK(TIM1_FLAG));
+=======
+  assert_param(IS_TIM1_GET_FLAG_OK(TIM1_FLAG));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   tim1_flag_l = (uint8_t)(TIM1->SR1 & (uint8_t)TIM1_FLAG);
   tim1_flag_h = (uint8_t)((uint16_t)TIM1_FLAG >> 8);
@@ -2087,7 +2357,11 @@ FlagStatus TIM1_GetFlagStatus(TIM1_FLAG_TypeDef TIM1_FLAG)
 void TIM1_ClearFlag(TIM1_FLAG_TypeDef TIM1_FLAG)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_CLEAR_FLAG_OK(TIM1_FLAG));
+=======
+  assert_param(IS_TIM1_CLEAR_FLAG_OK(TIM1_FLAG));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Clear the flags (rc_w0) clear this bit by writing 0. Writing ‘1’ has no effect*/
   TIM1->SR1 = (uint8_t)(~(uint8_t)(TIM1_FLAG));
@@ -2115,7 +2389,11 @@ ITStatus TIM1_GetITStatus(TIM1_IT_TypeDef TIM1_IT)
   uint8_t TIM1_itStatus = 0, TIM1_itEnable = 0;
   
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_GET_IT_OK(TIM1_IT));
+=======
+  assert_param(IS_TIM1_GET_IT_OK(TIM1_IT));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   TIM1_itStatus = (uint8_t)(TIM1->SR1 & (uint8_t)TIM1_IT);
   
@@ -2149,7 +2427,11 @@ ITStatus TIM1_GetITStatus(TIM1_IT_TypeDef TIM1_IT)
 void TIM1_ClearITPendingBit(TIM1_IT_TypeDef TIM1_IT)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM1_IT_OK(TIM1_IT));
+=======
+  assert_param(IS_TIM1_IT_OK(TIM1_IT));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Clear the IT pending Bit */
   TIM1->SR1 = (uint8_t)(~(uint8_t)TIM1_IT);

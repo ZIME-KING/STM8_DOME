@@ -25,7 +25,11 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
+<<<<<<< HEAD
 "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\king_pc1\Desktop\we-do-coding\STM8_dome\Project\settings\STM8_dome.Debug.general.xcl" --backend -f "C:\Users\king_pc1\Desktop\we-do-coding\STM8_dome\Project\settings\STM8_dome.Debug.driver.xcl" 
+=======
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\settings\STM8_dome.Debug.general.xcl" --backend -f "C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\settings\STM8_dome.Debug.driver.xcl" 
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
 
 @echo off 
 goto end 
@@ -34,7 +38,11 @@ goto end
 
 @echo on 
 
+<<<<<<< HEAD
 "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\king_pc1\Desktop\we-do-coding\STM8_dome\Project\settings\STM8_dome.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\king_pc1\Desktop\we-do-coding\STM8_dome\Project\settings\STM8_dome.Debug.driver.xcl" 
+=======
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\settings\STM8_dome.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\settings\STM8_dome.Debug.driver.xcl" 
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
 
 @echo off 
 :end

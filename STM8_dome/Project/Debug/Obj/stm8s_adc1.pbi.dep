@@ -1,4 +1,5 @@
 stm8s_adc1.pbi: \
+<<<<<<< HEAD
   C:\Users\king_pc1\Desktop\we-do-coding\STM8_dome\Libraries\STM8S_StdPeriph_Driver\src\stm8s_adc1.c \
   C:\Users\king_pc1\Desktop\we-do-coding\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc\stm8s_adc1.h \
   C:\Users\king_pc1\Desktop\we-do-coding\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc/stm8s.h \
@@ -20,4 +21,27 @@ stm8s_adc1.pbi: \
   C:\Users\king_pc1\Desktop\we-do-coding\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc\stm8s_tim4.h \
   C:\Users\king_pc1\Desktop\we-do-coding\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc\stm8s_uart1.h \
   C:\Users\king_pc1\Desktop\we-do-coding\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc\stm8s_wwdg.h \
+=======
+  C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Libraries\STM8S_StdPeriph_Driver\src\stm8s_adc1.c \
+  C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc\stm8s_adc1.h \
+  C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc/stm8s.h \
+  C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\..\App\stm8s_conf.h \
+  C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc\stm8s.h \
+  C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc\stm8s_awu.h \
+  C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc\stm8s_beep.h \
+  C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc\stm8s_clk.h \
+  C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc\stm8s_exti.h \
+  C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc\stm8s_flash.h \
+  C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc\stm8s_gpio.h \
+  C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc\stm8s_i2c.h \
+  C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc\stm8s_itc.h \
+  C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc\stm8s_iwdg.h \
+  C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc\stm8s_rst.h \
+  C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc\stm8s_spi.h \
+  C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc\stm8s_tim1.h \
+  C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc\stm8s_tim2.h \
+  C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc\stm8s_tim4.h \
+  C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc\stm8s_uart1.h \
+  C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\..\Libraries\STM8S_StdPeriph_Driver\inc\stm8s_wwdg.h \
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h

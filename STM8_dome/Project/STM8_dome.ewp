@@ -16,7 +16,11 @@
                 <debug>1</debug>
                 <option>
                     <name>GenDeviceSelectMenu</name>
+<<<<<<< HEAD
                     <state>STM8S103F3P	STM8S103F3P</state>
+=======
+                    <state>STM8S105C6	STM8S105C6</state>
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
                 </option>
                 <option>
                     <name>GenCodeModel</name>
@@ -26,7 +30,11 @@
                 <option>
                     <name>GenDataModel</name>
                     <version>0</version>
+<<<<<<< HEAD
                     <state>0</state>
+=======
+                    <state>1</state>
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
                 </option>
                 <option>
                     <name>GOutputBinary</name>
@@ -47,11 +55,16 @@
                 <option>
                     <name>GenRuntimeLibSelect</name>
                     <version>0</version>
+<<<<<<< HEAD
                     <state>1</state>
+=======
+                    <state>2</state>
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
                 </option>
                 <option>
                     <name>GenRuntimeLibSelectSlave</name>
                     <version>0</version>
+<<<<<<< HEAD
                     <state>1</state>
                 </option>
                 <option>
@@ -61,6 +74,17 @@
                 <option>
                     <name>GenRTConfigPath</name>
                     <state>$TOOLKIT_DIR$\LIB\dlstm8ssn.h</state>
+=======
+                    <state>2</state>
+                </option>
+                <option>
+                    <name>GenRTDescription</name>
+                    <state>Use the full configuration of the C/EC++ runtime library. Full locale interface, C locale, file descriptor support, multibytes in printf and scanf, and hex floats in strtod.</state>
+                </option>
+                <option>
+                    <name>GenRTConfigPath</name>
+                    <state>$TOOLKIT_DIR$\LIB\dlstm8smf.h</state>
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
                 </option>
                 <option>
                     <name>GenLibInFormatter</name>
@@ -146,16 +170,28 @@
                 </option>
                 <option>
                     <name>IccOptLevel</name>
+<<<<<<< HEAD
                     <state>0</state>
+=======
+                    <state>1</state>
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
                 </option>
                 <option>
                     <name>IccOptStrategy</name>
                     <version>0</version>
+<<<<<<< HEAD
                     <state>1</state>
                 </option>
                 <option>
                     <name>IccOptLevelSlave</name>
                     <state>0</state>
+=======
+                    <state>0</state>
+                </option>
+                <option>
+                    <name>IccOptLevelSlave</name>
+                    <state>1</state>
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
                 </option>
                 <option>
                     <name>IccOptAllowList</name>
@@ -188,7 +224,11 @@
                 </option>
                 <option>
                     <name>CCDefines</name>
+<<<<<<< HEAD
                     <state>STM8S103</state>
+=======
+                    <state>STM8S003</state>
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
                 </option>
                 <option>
                     <name>CCPreprocFile</name>
@@ -608,7 +648,11 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
+<<<<<<< HEAD
                     <state>$TOOLKIT_DIR$\config\lnkstm8s103f3.icf</state>
+=======
+                    <state>$TOOLKIT_DIR$\config\lnkstm8s003f3.icf</state>
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -1649,6 +1693,7 @@
     <group>
         <name>Bsp</name>
         <file>
+<<<<<<< HEAD
             <name>$PROJ_DIR$\..\Bsp\Buzzer.c</name>
         </file>
         <file>
@@ -1681,6 +1726,10 @@
         <file>
             <name>$PROJ_DIR$\..\Bsp\user_timer.c</name>
         </file>
+=======
+            <name>$PROJ_DIR$\..\Bsp\user_function.c</name>
+        </file>
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
     </group>
     <group>
         <name>Lib</name>
@@ -1700,9 +1749,21 @@
             <name>$PROJ_DIR$\..\Libraries\STM8S_StdPeriph_Driver\src\stm8s_exti.c</name>
         </file>
         <file>
+<<<<<<< HEAD
             <name>$PROJ_DIR$\..\Libraries\STM8S_StdPeriph_Driver\src\stm8s_gpio.c</name>
         </file>
         <file>
+=======
+            <name>$PROJ_DIR$\..\Libraries\STM8S_StdPeriph_Driver\src\stm8s_flash.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\STM8S_StdPeriph_Driver\src\stm8s_gpio.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\STM8S_StdPeriph_Driver\src\stm8s_i2c.c</name>
+        </file>
+        <file>
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
             <name>$PROJ_DIR$\..\Libraries\STM8S_StdPeriph_Driver\src\stm8s_itc.c</name>
         </file>
         <file>
@@ -1712,6 +1773,12 @@
             <name>$PROJ_DIR$\..\Libraries\STM8S_StdPeriph_Driver\src\stm8s_rst.c</name>
         </file>
         <file>
+<<<<<<< HEAD
+=======
+            <name>$PROJ_DIR$\..\Libraries\STM8S_StdPeriph_Driver\src\stm8s_spi.c</name>
+        </file>
+        <file>
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
             <name>$PROJ_DIR$\..\Libraries\STM8S_StdPeriph_Driver\src\stm8s_tim1.c</name>
         </file>
         <file>

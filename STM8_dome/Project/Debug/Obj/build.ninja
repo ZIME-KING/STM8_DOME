@@ -22,6 +22,7 @@ rule browsedata
 #Build steps
 build main.pbi : index main.xcl
 build stm8s_it.pbi : index stm8s_it.xcl
+<<<<<<< HEAD
 build Buzzer.pbi : index Buzzer.xcl
 build delay.pbi : index delay.xcl
 build key.pbi : index key.xcl
@@ -33,20 +34,34 @@ build uart.pbi : index uart.xcl
 build user_data_processing.pbi : index user_data_processing.xcl
 build user_function.pbi : index user_function.xcl
 build user_timer.pbi : index user_timer.xcl
+=======
+build user_function.pbi : index user_function.xcl
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
 build stm8s_adc1.pbi : index stm8s_adc1.xcl
 build stm8s_awu.pbi : index stm8s_awu.xcl
 build stm8s_beep.pbi : index stm8s_beep.xcl
 build stm8s_clk.pbi : index stm8s_clk.xcl
 build stm8s_exti.pbi : index stm8s_exti.xcl
+<<<<<<< HEAD
 build stm8s_gpio.pbi : index stm8s_gpio.xcl
 build stm8s_itc.pbi : index stm8s_itc.xcl
 build stm8s_iwdg.pbi : index stm8s_iwdg.xcl
 build stm8s_rst.pbi : index stm8s_rst.xcl
+=======
+build stm8s_flash.pbi : index stm8s_flash.xcl
+build stm8s_gpio.pbi : index stm8s_gpio.xcl
+build stm8s_i2c.pbi : index stm8s_i2c.xcl
+build stm8s_itc.pbi : index stm8s_itc.xcl
+build stm8s_iwdg.pbi : index stm8s_iwdg.xcl
+build stm8s_rst.pbi : index stm8s_rst.xcl
+build stm8s_spi.pbi : index stm8s_spi.xcl
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
 build stm8s_tim1.pbi : index stm8s_tim1.xcl
 build stm8s_tim2.pbi : index stm8s_tim2.xcl
 build stm8s_tim4.pbi : index stm8s_tim4.xcl
 build stm8s_uart1.pbi : index stm8s_uart1.xcl
 build stm8s_wwdg.pbi : index stm8s_wwdg.xcl
+<<<<<<< HEAD
 build STM8_dome_part0.pbi : link main.pbi stm8s_it.pbi Buzzer.pbi delay.pbi key.pbi
 build STM8_dome_part1.pbi : link led.pbi MFRC522.pbi motor.pbi software_Time.pbi uart.pbi
 build STM8_dome_part2.pbi : link user_data_processing.pbi user_function.pbi user_timer.pbi stm8s_adc1.pbi stm8s_awu.pbi
@@ -54,6 +69,14 @@ build STM8_dome_part3.pbi : link stm8s_beep.pbi stm8s_clk.pbi stm8s_exti.pbi stm
 build STM8_dome_part4.pbi : link stm8s_iwdg.pbi stm8s_rst.pbi stm8s_tim1.pbi stm8s_tim2.pbi stm8s_tim4.pbi
 build STM8_dome_part5.pbi : link stm8s_uart1.pbi stm8s_wwdg.pbi
 build STM8_dome.pbd : link STM8_dome_part0.pbi STM8_dome_part1.pbi STM8_dome_part2.pbi STM8_dome_part3.pbi STM8_dome_part4.pbi STM8_dome_part5.pbi
+=======
+build STM8_dome_part0.pbi : link main.pbi stm8s_it.pbi user_function.pbi stm8s_adc1.pbi
+build STM8_dome_part1.pbi : link stm8s_awu.pbi stm8s_beep.pbi stm8s_clk.pbi stm8s_exti.pbi
+build STM8_dome_part2.pbi : link stm8s_flash.pbi stm8s_gpio.pbi stm8s_i2c.pbi stm8s_itc.pbi
+build STM8_dome_part3.pbi : link stm8s_iwdg.pbi stm8s_rst.pbi stm8s_spi.pbi stm8s_tim1.pbi
+build STM8_dome_part4.pbi : link stm8s_tim2.pbi stm8s_tim4.pbi stm8s_uart1.pbi stm8s_wwdg.pbi
+build STM8_dome.pbd : link STM8_dome_part0.pbi STM8_dome_part1.pbi STM8_dome_part2.pbi STM8_dome_part3.pbi STM8_dome_part4.pbi
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
 build STM8_dome.pbw : browsedata STM8_dome.pbd
 
 

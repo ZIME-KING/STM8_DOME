@@ -48,7 +48,11 @@
                 </option>
                 <option>
                     <name>CSpyDDFFile</name>
+<<<<<<< HEAD
                     <state>$TOOLKIT_DIR$\config\ddf\iostm8s103f3.ddf</state>
+=======
+                    <state>$TOOLKIT_DIR$\config\ddf\iostm8s003f3.ddf</state>
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
                 </option>
                 <option>
                     <name>CSpyEnableExtraOptions</name>

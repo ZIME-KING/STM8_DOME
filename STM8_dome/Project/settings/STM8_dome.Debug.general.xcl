@@ -2,7 +2,11 @@
 
 "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\bin\stm8stlink.dll" 
 
+<<<<<<< HEAD
 "C:\Users\king_pc1\Desktop\we-do-coding\STM8_dome\Project\Debug\Exe\STM8_dome.out" 
+=======
+"C:\Users\king_pc1\Desktop\STM8_1211\STM8_dome\Project\Debug\Exe\STM8_dome.out" 
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
 
 --plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\bin\stm8bat.dll" 
 

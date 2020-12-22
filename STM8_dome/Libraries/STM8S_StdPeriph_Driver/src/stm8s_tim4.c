@@ -65,7 +65,11 @@ void TIM4_DeInit(void)
 void TIM4_TimeBaseInit(TIM4_Prescaler_TypeDef TIM4_Prescaler, uint8_t TIM4_Period)
 {
   /* Check TIM4 prescaler value */
+<<<<<<< HEAD
   ////assert_param(IS_TIM4_PRESCALER_OK(TIM4_Prescaler));
+=======
+  assert_param(IS_TIM4_PRESCALER_OK(TIM4_Prescaler));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   /* Set the Prescaler value */
   TIM4->PSCR = (uint8_t)(TIM4_Prescaler);
   /* Set the Autoreload value */
@@ -81,7 +85,11 @@ void TIM4_TimeBaseInit(TIM4_Prescaler_TypeDef TIM4_Prescaler, uint8_t TIM4_Perio
 void TIM4_Cmd(FunctionalState NewState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+=======
+  assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* set or Reset the CEN Bit */
   if (NewState != DISABLE)
@@ -107,8 +115,13 @@ void TIM4_Cmd(FunctionalState NewState)
 void TIM4_ITConfig(TIM4_IT_TypeDef TIM4_IT, FunctionalState NewState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM4_IT_OK(TIM4_IT));
   //assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+=======
+  assert_param(IS_TIM4_IT_OK(TIM4_IT));
+  assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   if (NewState != DISABLE)
   {
@@ -131,7 +144,11 @@ void TIM4_ITConfig(TIM4_IT_TypeDef TIM4_IT, FunctionalState NewState)
 void TIM4_UpdateDisableConfig(FunctionalState NewState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+=======
+  assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the UDIS Bit */
   if (NewState != DISABLE)
@@ -155,7 +172,11 @@ void TIM4_UpdateDisableConfig(FunctionalState NewState)
 void TIM4_UpdateRequestConfig(TIM4_UpdateSource_TypeDef TIM4_UpdateSource)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM4_UPDATE_SOURCE_OK(TIM4_UpdateSource));
+=======
+  assert_param(IS_TIM4_UPDATE_SOURCE_OK(TIM4_UpdateSource));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the URS Bit */
   if (TIM4_UpdateSource != TIM4_UPDATESOURCE_GLOBAL)
@@ -179,7 +200,11 @@ void TIM4_UpdateRequestConfig(TIM4_UpdateSource_TypeDef TIM4_UpdateSource)
 void TIM4_SelectOnePulseMode(TIM4_OPMode_TypeDef TIM4_OPMode)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM4_OPM_MODE_OK(TIM4_OPMode));
+=======
+  assert_param(IS_TIM4_OPM_MODE_OK(TIM4_OPMode));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the OPM Bit */
   if (TIM4_OPMode != TIM4_OPMODE_REPETITIVE)
@@ -215,8 +240,13 @@ void TIM4_SelectOnePulseMode(TIM4_OPMode_TypeDef TIM4_OPMode)
 void TIM4_PrescalerConfig(TIM4_Prescaler_TypeDef Prescaler, TIM4_PSCReloadMode_TypeDef TIM4_PSCReloadMode)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM4_PRESCALER_RELOAD_OK(TIM4_PSCReloadMode));
   //assert_param(IS_TIM4_PRESCALER_OK(Prescaler));
+=======
+  assert_param(IS_TIM4_PRESCALER_RELOAD_OK(TIM4_PSCReloadMode));
+  assert_param(IS_TIM4_PRESCALER_OK(Prescaler));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set the Prescaler value */
   TIM4->PSCR = (uint8_t)Prescaler;
@@ -234,7 +264,11 @@ void TIM4_PrescalerConfig(TIM4_Prescaler_TypeDef Prescaler, TIM4_PSCReloadMode_T
 void TIM4_ARRPreloadConfig(FunctionalState NewState)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+=======
+  assert_param(IS_FUNCTIONALSTATE_OK(NewState));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set or Reset the ARPE Bit */
   if (NewState != DISABLE)
@@ -257,7 +291,11 @@ void TIM4_ARRPreloadConfig(FunctionalState NewState)
 void TIM4_GenerateEvent(TIM4_EventSource_TypeDef TIM4_EventSource)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM4_EVENT_SOURCE_OK(TIM4_EventSource));
+=======
+  assert_param(IS_TIM4_EVENT_SOURCE_OK(TIM4_EventSource));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Set the event sources */
   TIM4->EGR = (uint8_t)(TIM4_EventSource);
@@ -321,7 +359,11 @@ FlagStatus TIM4_GetFlagStatus(TIM4_FLAG_TypeDef TIM4_FLAG)
   FlagStatus bitstatus = RESET;
   
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM4_GET_FLAG_OK(TIM4_FLAG));
+=======
+  assert_param(IS_TIM4_GET_FLAG_OK(TIM4_FLAG));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   if ((TIM4->SR1 & (uint8_t)TIM4_FLAG)  != 0)
   {
@@ -344,7 +386,11 @@ FlagStatus TIM4_GetFlagStatus(TIM4_FLAG_TypeDef TIM4_FLAG)
 void TIM4_ClearFlag(TIM4_FLAG_TypeDef TIM4_FLAG)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM4_GET_FLAG_OK(TIM4_FLAG));
+=======
+  assert_param(IS_TIM4_GET_FLAG_OK(TIM4_FLAG));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Clear the flags (rc_w0) clear this bit by writing 0. Writing ‘1’ has no effect*/
   TIM4->SR1 = (uint8_t)(~TIM4_FLAG);
@@ -364,7 +410,11 @@ ITStatus TIM4_GetITStatus(TIM4_IT_TypeDef TIM4_IT)
   uint8_t itstatus = 0x0, itenable = 0x0;
   
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM4_IT_OK(TIM4_IT));
+=======
+  assert_param(IS_TIM4_IT_OK(TIM4_IT));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   itstatus = (uint8_t)(TIM4->SR1 & (uint8_t)TIM4_IT);
   
@@ -391,7 +441,11 @@ ITStatus TIM4_GetITStatus(TIM4_IT_TypeDef TIM4_IT)
 void TIM4_ClearITPendingBit(TIM4_IT_TypeDef TIM4_IT)
 {
   /* Check the parameters */
+<<<<<<< HEAD
   //assert_param(IS_TIM4_IT_OK(TIM4_IT));
+=======
+  assert_param(IS_TIM4_IT_OK(TIM4_IT));
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
   
   /* Clear the IT pending Bit */
   TIM4->SR1 = (uint8_t)(~TIM4_IT);

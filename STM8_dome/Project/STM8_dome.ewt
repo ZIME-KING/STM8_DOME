@@ -2165,6 +2165,7 @@
     <group>
         <name>Bsp</name>
         <file>
+<<<<<<< HEAD
             <name>$PROJ_DIR$\..\Bsp\Buzzer.c</name>
         </file>
         <file>
@@ -2197,6 +2198,10 @@
         <file>
             <name>$PROJ_DIR$\..\Bsp\user_timer.c</name>
         </file>
+=======
+            <name>$PROJ_DIR$\..\Bsp\user_function.c</name>
+        </file>
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
     </group>
     <group>
         <name>Lib</name>
@@ -2216,9 +2221,21 @@
             <name>$PROJ_DIR$\..\Libraries\STM8S_StdPeriph_Driver\src\stm8s_exti.c</name>
         </file>
         <file>
+<<<<<<< HEAD
             <name>$PROJ_DIR$\..\Libraries\STM8S_StdPeriph_Driver\src\stm8s_gpio.c</name>
         </file>
         <file>
+=======
+            <name>$PROJ_DIR$\..\Libraries\STM8S_StdPeriph_Driver\src\stm8s_flash.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\STM8S_StdPeriph_Driver\src\stm8s_gpio.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\STM8S_StdPeriph_Driver\src\stm8s_i2c.c</name>
+        </file>
+        <file>
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
             <name>$PROJ_DIR$\..\Libraries\STM8S_StdPeriph_Driver\src\stm8s_itc.c</name>
         </file>
         <file>
@@ -2228,6 +2245,12 @@
             <name>$PROJ_DIR$\..\Libraries\STM8S_StdPeriph_Driver\src\stm8s_rst.c</name>
         </file>
         <file>
+<<<<<<< HEAD
+=======
+            <name>$PROJ_DIR$\..\Libraries\STM8S_StdPeriph_Driver\src\stm8s_spi.c</name>
+        </file>
+        <file>
+>>>>>>> c0ac351fb1e84eab7d5059c79897c66397421437
             <name>$PROJ_DIR$\..\Libraries\STM8S_StdPeriph_Driver\src\stm8s_tim1.c</name>
         </file>
         <file>
